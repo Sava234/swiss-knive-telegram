@@ -6,53 +6,53 @@ Its monolithic structure makes it easy to add your own features.
 Overall, it can significantly enhance your Telegram surfing experience.
 
 
-📦 Установка / Installation
- Убедитесь, что у вас установлен Python 3.8+
- Установите зависимости:
+📦 Installation
+Make sure you have Python 3.8+ installed
+Install dependencies:
  
        pip install telethon
 
     
- Клонируйте репозиторий:
+ Clone the repository
               
       git clone https://github.com/Sava234/swiss-knive-telegram.git
 
-🚀 Бысткий старт / Quick Start
+🚀  Quick Start
 
- Запустите скрипт:
+ Run the script:
 
     python main.py
 
-Введите ваш API ID, API Hash и номер телефона при первом запуске.
-Эти данные будут сохранены в tg_tools_config.json, а сессия — в session_name.session.
-После подключения вы увидите главное меню:
+Enter your API ID, API Hash, and phone number when you first launch the app.
+This data will be saved in tg_tools_config.json, and the session will be saved in session_name.session.
+After connecting, you will see the main menu:
+   
+     1. Clear correspondence (including media)
+     2. Set up an auto-responder
+     3. Mass mailing
+     4. Delete authorization data
+     5. Log out
 
-     1. Очистить переписку (включая медиа)
-     2. Настроить автоответчик
-     3. Массовая рассылка сообщений
-     4. Удалить данные авторизации
-     5. Выход
+🧰 Features
 
-🧰 Возможности 
+🔁 Answering machine
+Responds to keywords or all messages.
+Supports sending media files.
+Anti-spam: fixed, progressive, or random delay.
 
-🔁 Автоответчик
-Отвечает по ключевым словам или на все сообщения.
-Поддерживает отправку медиафайлов.
-Антиспам: фиксированная, прогрессивная или случайная задержка.
+🧹 Cleaning chats
+Delete all messages or just yours.
+Delete by time (for example, only the last 10 minutes).
+You can leave media files or delete them along with the messages.
 
-🧹 Очистка чатов
-Удаление всех сообщений или только ваших.
-Удаление по времени (например, только за последние 10 минут).
-Можно оставить медиафайлы или удалить их вместе с сообщениями.
+📢 Mass messaging
+Send text or media to multiple chats.
+You can specify chats by ID or name.
 
-📢 Массовая рассылка
-Рассылка текста или медиа в несколько чатов.
-Можно указать чаты по ID или по имени.
+🔐 Data management
+ Delete configuration and Telegram sessions at will.
 
-🔐 Управление данными
- Удаление конфигурации и Telegram-сессии по желанию.
-
-📝 Примечания 
-Скрипт не использует ботов, он работает через Telegram API как полноценный пользователь.
-Ваши данные хранятся локально, не передаются третьим лицам.
-Используйте скрипт ответственно, соблюдайте правила Telegram.
+📝 Notes
+The script does not use bots; it works through the Telegram API as a full-fledged user.
+Your data is stored locally and is not transferred to third parties.
+Use the script responsibly and follow Telegram's rules.
